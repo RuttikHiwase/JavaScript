@@ -12,5 +12,47 @@
     <script src="arithematicAndcomparisonoperators.js"> </script>
     <script src="Arrays.js"> </script>
     <script src="Strings.js"> </script>
+    <script src="ConditionalStatements.js"> </script>
+    <script src="Loops.js"> </script>
+    <script src="Functions.js"> </script>
+    <script src="DomManupulation1.js"> </script>
+
+      
+    <h1 id="h1section">Welcome to DOM manipulation</h1>
+    <div id="divsection"> This is the div section</div>
+    <script> 
+        console.log(document.getElementById('h1section'));// this will print message of id ( h1section);
+    </script>
+
+
+
+     <ul>
+          <li class="green">item 1 </li>
+          <li>item 2</li>
+          <li class="green"> item 3</li>
+          <li>item 4</li>
+     </ul>
+
+     <script>// document.getElementsByClassName(classname);
+        let items = document.getElementsByClassName('green');// use when multiple elements to be targeted
+        console.log(items);
+     </script>
+
+
+    <script>// document.getElementsByTagName(tagname);
+    let item = document.getElementsByTagName('li');
+    console.log(item);
+    </script>
+
+
+<script>// document.querySelector('query');
+    let itm= document.querySelector('.green');
+    console.log(itm);
+    </script>
+
+
+
+
+
 </body>
 </html>
